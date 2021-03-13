@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,700,500,300);
+
+body {
+    background: ghostwhite;
+    font-family: "Exo 2", serif;
+}
+
+.region {
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: lightblue;
+    width:80%;
+    height:50%;
+    border:5px dashed white;
+    text-align:center;
+    color: white;
+    z-index: 20;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 0 0 1px rgba(255,255,255,.05),inset 0 0 .25em 0 rgba(0,0,0,.25);
+}
+.btn {
+    background: #fff;
+    color:#4abdac;
+}
+.active {
+    background: #4abdac;
+    color: white;
+}
+
+i {
+    text-align: center;
+    font-size: 10em;
+    color: #fff;
+    margin-top: 50px;
+}
+.selectFile {
+    height: 50px;
+    margin: 20px auto;
+    position: relative;
+    width: 200px;
+}
+
+label, input {
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+label {
+    background: #fff;
+    color: #4abdac;
+    display: inline-block;
+    font-size: 1.2em;
+    line-height: 50px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 400;
+    box-shadow: 0 1px 1px gray;
+}
+
+input[type=file] {
+    opacity: 10;
+}
+
+
+.region.in {
+    color: white;
+    border-color: white;
+    background: radial-gradient(ellipse at center, lightsteelblue 0, royalblue 100%);
+}
+.region.hover {
+    color: gray;
+    background:#fff;
+    border: 5px dashed gray;
+}
+.region.fade {
+    transition: all 0.3s ease-out;
+    opacity: 1;
+}
+
+.myButton{
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    left: 0;
+    position: relative;
+    top: 0;
+    font-size: 1.2em;
+    font-weight: 400;
+    width: 200px;
+    margin-left: 42%;
+    border-radius: 5px;
+    background: #fff;
+    color:#4abdac;
+}
+
+#query {
+    width: 800px;
+    height: 50px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
